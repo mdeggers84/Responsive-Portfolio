@@ -373,7 +373,12 @@ footer {
 		width: 550px;
 	}
 
+	section .image:nth-child(even) {
+		margin-left: 0px;
+	}
+
 	.thumbnail {
+		margin-left: 0px;
 		width: 550px;
 		height: auto;
 	}
