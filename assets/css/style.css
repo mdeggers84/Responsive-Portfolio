@@ -33,17 +33,9 @@ a {
 	color: #999;
 }
 
-p {
-
-}
-
 h1 {
 	font-size: 30px;
 	margin: 24px 0px;
-}
-
-h2 {
-
 }
 
 h3 {
@@ -236,7 +228,7 @@ label {
 	outline: none;
 }
 
-/* Sticky Footer Styling */
+/* Sticky Footer Styling With Flexbox */
 .container {
 	flex: 1;
 }
