@@ -30,7 +30,7 @@ hr {
 
 a {
 	text-decoration: none !important;
-	color: #999;
+	color: #4aaaa5;
 }
 
 h1 {
@@ -69,15 +69,28 @@ header {
 
 nav {
 	position: relative;
-	display: inline;	
+	/*display: inline-block;	*/
 	font-size: 18px;
-	padding: 10px;
+	/*padding: 10px;*/
 	left: 700px;
 	top: -15px;
 }
 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+}
+
 /* Nav button animations */
+
 .buttons {
+	color: #4aaaa5;
+	background: transparent;
 	padding: 5px 10px;
 }
 
